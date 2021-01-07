@@ -1,7 +1,6 @@
-# Ignore Twitter API keys file #
-################################
-twitter_api_keys.txt
-twitter_api_keys.json
+# Ignore any Twitter API keys file #
+####################################
+twitter_api_keys.*
 
 # Ignore all the files inside .ipynb_checkpoints directory #
 ############################################################
