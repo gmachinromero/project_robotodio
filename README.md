@@ -15,6 +15,13 @@
 
 ### 3.1. Install Requirements
 
+Using pip:
+
 ```
-pip3 install -r requirements.txt
+pip3 install -r requirements_pip.txt
+```
+Using conda:
+
+```
+conda create --name <env> --file requirements.txt
 ```
