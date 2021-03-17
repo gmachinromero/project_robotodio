@@ -8,7 +8,8 @@
 
 - **img:** Images
 - **notebooks:** Jupyter Notebooks
-- **requirements.txt:** Required Python libraries
+- **requirements_pip.txt:** Required Python libraries pip format
+- **requirements_conda.txt:** Required Python libraries conda format
 - **twitter_api_keys.json:** File with Twitter tokens
 
 ## 3. Requirements and Data Adquisition
@@ -23,5 +24,5 @@ pip3 install -r requirements_pip.txt
 Using conda:
 
 ```
-conda create --name <env> --file requirements.txt
+conda create --name <env> --file requirements_conda.txt
 ```
