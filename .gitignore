@@ -1,6 +1,9 @@
 # Ignore any Twitter API keys file #
 twitter_api_keys.*
 
+# Sinfo generation
+sinfo-requirements.*
+
 # Ignore all the files inside .ipynb_checkpoints directory #
 .ipynb_checkpoints/
 
