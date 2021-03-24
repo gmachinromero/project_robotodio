@@ -24,3 +24,10 @@ import tweepy
 
 # Hate speech detection
 from detoxify import Detoxify
+
+
+
+
+print("Hello world")
+
+st.title('My first app')
