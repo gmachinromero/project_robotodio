@@ -6,10 +6,11 @@
 
 ## 2. Repo Structure
 
-- **img:** Images
 - **notebooks:** Jupyter Notebooks
-- **requirements_pip.txt:** Required Python libraries pip format
-- **requirements_conda.txt:** Required Python libraries conda format
+- **scripts:** Code to execute from terminal
+- **requirements_pip.txt:** Required Python libraries in pip format
+- **requirements_conda.txt:** Required Python libraries in conda format
+- **spanish_stopwords.txt:** Spanish stop words collection
 - **twitter_api_keys.json:** File with Twitter tokens
 
 ## 3. Requirements and Data Adquisition
@@ -25,4 +26,10 @@ Using conda:
 
 ```
 conda create --name <env> --file requirements_conda.txt
+```
+
+## 4. Execute code from terminal
+
+```
+streamlit run robotodio.py
 ```
