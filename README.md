@@ -26,9 +26,7 @@ project_robotodio
     |   └ 03-performance-test.ipynb
     |
     ├ scripts
-    |   ├ robotodio.py
-    |   ├
-    |   └
+    |   └ robotodio.py
     |
     ├ words_list
     |   ├ racist_words.txt
