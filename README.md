@@ -58,8 +58,9 @@ conda activate [env_name]
 
 ## 4. Execute code from terminal
 
-Enter the following command into the directory where the .py file is located.
+Run the following command into the directory where the .py file is located (.../project_robotodio/scripts).
 ```
+cd .../project_robotodio/scripts
 streamlit run robotodio.py
 ```
 
