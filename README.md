@@ -17,6 +17,7 @@ Inside each directory/file wou will find:
 
 Directory structure:
 
+```
 project_robotodio
     |
     ├ notebooks
@@ -36,6 +37,7 @@ project_robotodio
     ├ requirements_pip.txt
     ├ requirements_conda.txt
     └ twitter_api_keys.json
+```
 
 ## 3. Requirements and Data Adquisition
 
