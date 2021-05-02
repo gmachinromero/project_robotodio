@@ -8,12 +8,12 @@
 
 Inside each directory/file wou will find:
 
-- **notebooks:** Jupyter Notebooks
+- **notebooks:** Jupyter Notebooks with explanations
 - **scripts:** Code to execute from terminal and interact with the frontend
 - **words_list:** Collections of words used in the code
 - **requirements_pip.txt:** Required Python libraries in pip format
 - **requirements_conda.txt:** Required Python libraries in conda format
-- **twitter_api_keys.json:** File with Twitter tokens
+- **twitter_api_keys.json:** File with Twitter tokens (you have to request your own tokens to Twitter)
 
 Directory structure:
 
