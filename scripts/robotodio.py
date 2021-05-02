@@ -295,7 +295,7 @@ with st.spinner('Tened paciencia y tendréis ciencia...⏳'):
 
     # ----------------------- Toxicity histogram ----------------------------------
     # Figure and axes
-    fig_2, ax = plt.subplots(figsize=(10,5))
+    fig_2, ax = plt.subplots(figsize=(18,5))
 
     # Titles
     ax.set_title("Toxicity histogram", y=1.02, fontsize=10, fontweight='bold')
@@ -310,7 +310,7 @@ with st.spinner('Tened paciencia y tendréis ciencia...⏳'):
 
     # ----------------------- Evolution of toxicity through time ------------------
     # Figure and axes
-    fig_3, ax = plt.subplots(1, figsize=(16,5))
+    fig_3, ax = plt.subplots(1, figsize=(18,5))
 
     # Titles
     ax.set_title("Toxicity time serie", y=1.02, fontsize=10, fontweight='bold')
@@ -337,6 +337,8 @@ with st.spinner('Tened paciencia y tendréis ciencia...⏳'):
 
     # Create and generate a word cloud image
     wordcloud = WordCloud(
+        width=1800,
+        height=1000,
         stopwords=spanish_stopwords,
         background_color="white").generate(text)
 
