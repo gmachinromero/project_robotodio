@@ -39,6 +39,8 @@ project_robotodio
 
 ## 3. Requirements and Data Adquisition
 
+As you can see, the requirements files contain a lot of libraries associated with anaconda notebooks. If you want to run the code exclusively in the terminal, you will only need the libraries defined in the requirements_terminal.
+
 ### 3.1. Install Requirements
 
 Using pip:
