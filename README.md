@@ -12,7 +12,7 @@ It has been shown that with the amount of messages that are produced daily on so
 
 The key here is to develop systems and algorithms that allow us to accurately identify these hateful messages, or to do an initial screening and leave those more ambiguous to the review of the human eye, facilitating the work of people, and the user experience of the community within these social networks.
 
-With this objective, the robotodio project was born, to identify hate speech on Twitter, to improve social networks and make the population aware of the polarity of their messages.
+With this objective, the robotodio project was born, to identify hate speech on Twitter, to improve social networks and make the population aware of the polarity of their messages. This project use the Detoxify (https://github.com/unitaryai/detoxify) library to analyze tweets from a Twitter account, and to output an average hate-scoring.
 
 ## 2. Repo Structure
 
