@@ -55,7 +55,7 @@ As you can see, the requirements files contain a lot of libraries associated wit
 
 Using pip:
 ```
-pip3 install -r requirements.txt
+pip3 install -r requirements_pip.txt
 ```
 
 Using conda:
