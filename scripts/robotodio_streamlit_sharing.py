@@ -2,6 +2,8 @@
 # ------------------------------------------------------------------------------
 # Python libraries
 # ------------------------------------------------------------------------------
+# Operating system
+import os
 
 # Reading files with different formats
 import json
@@ -31,12 +33,12 @@ from detoxify import Detoxify
 
 # Create a handler instance with key and secret consumer, and pass the tokens
 auth = tweepy.OAuthHandler(
-    st.secrets["consumer_key"],
-    st.secrets["consumer_secret"])
+    os.environ["consumer_key"],
+    os.environ["consumer_secret"])
 
 auth.set_access_token(
-    st.secrets["access_token"],
-    st.secrets["access_token_secret"])
+    os.environ["access_token"],
+    os.environ["access_token_secret"])
     
 # Construct the API instance
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
