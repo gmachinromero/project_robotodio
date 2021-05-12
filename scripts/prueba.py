@@ -6,6 +6,8 @@
 # Twitter API
 import tweepy
 
+import streamlit as st
+
 
 # ------------------------------------------------------------------------------
 # Streamlit appereance
