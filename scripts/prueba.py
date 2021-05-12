@@ -37,7 +37,6 @@ target = st.sidebar.text_input("sin @")
 # Reloj
 with st.spinner('Tened paciencia y tendréis ciencia...⏳'):
 
-    st.write("DB username:", st.secrets["db_username"])
     st.write(os.environ["db_username"])
 
     st.write(os.environ["prueba_secreto"])
