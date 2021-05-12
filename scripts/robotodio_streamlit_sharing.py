@@ -29,15 +29,14 @@ from detoxify import Detoxify
 # API Twitter credentials and loggin
 # ------------------------------------------------------------------------------
 
-# Assign each value of the dictionary to a new variable
-consumer_key = st.secrets["consumer_key"]
-consumer_secret = st.secrets["consumer_secret"]
-access_token = st.secrets["access_token"]
-access_token_secret = st.secrets["access_token_secret"]
-
 # Create a handler instance with key and secret consumer, and pass the tokens
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+auth = tweepy.OAuthHandler(
+    st.secrets["consumer_key"],
+    st.secrets["consumer_secret"])
+
+auth.set_access_token(
+    st.secrets["access_token"],
+    st.secrets["access_token_secret"])
     
 # Construct the API instance
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
