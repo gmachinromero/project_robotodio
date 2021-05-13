@@ -23,7 +23,7 @@ Inside each directory/file wou will find:
 - **words_list:** Collections of words used in the code
 - **requirements_pip.txt:** Required Python libraries in pip format
 - **requirements_conda.txt:** Required Python libraries in conda format
-- **template_twitter_api_keys.json:** File with Twitter tokens (you have to request your own tokens to Twitter)
+- **template_twitter_api_keys.json:** File with Twitter tokens. You have to request your own tokens to Twitter, or ask me for mine. Once you have the tokens, introduce them in the .json file and rename it to twitter_api_keys.json.  
 
 Directory structure:
 
@@ -49,7 +49,7 @@ project_robotodio
 
 ## 3. Requirements and Data Adquisition
 
-As you can see, the requirements files contain a lot of libraries associated with anaconda notebooks. If you want to run the code exclusively in the terminal, you will only need the libraries defined in the requirements_terminal.
+As you can see, the requirements files contain a lot of libraries associated with anaconda notebooks. If you want to run the code exclusively in the terminal, you will only need the libraries defined in the file requirements.txt. This file is useful for deployin the app in Streamlit Sharing.
 
 ### 3.1. Install Requirements
 
@@ -75,9 +75,3 @@ Run the following command into the directory where the .py file is located ([~/.
 cd ~/.../.../project_robotodio/scripts
 streamlit run robotodio.py
 ```
-
-## 5. Bibliography
-
-- http://docs.tweepy.org/en/latest/
-- https://github.com/unitaryai/detoxify
-- http://rios.tecnm.mx/cdistribuido/recursos/MinDatScr/MineriaScribble.html
