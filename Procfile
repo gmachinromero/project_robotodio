@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run scripts/robotodio.py
+web: sh setup.sh && streamlit run scripts/robotodio_heroku.py
