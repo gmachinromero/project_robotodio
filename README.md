@@ -16,8 +16,6 @@ With this objective, the robotodio project was born, to identify hate speech on 
 
 The result of this project is a dashboard where you can analyze the tweets of a twitter account, their level of hate-speech, most used words, and obtain insights from the profile of that twitter account.
 
-https://github.com/gmachinromero/project_robotodio/blob/master/front-end.png
-
 ![alt text](https://github.com/gmachinromero/project_robotodio/blob/master/front-end.png?raw=true)
 
 ## 2. Repo Structure
