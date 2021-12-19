@@ -69,8 +69,9 @@ st.set_page_config(
     )
 
 # Title
-with st.beta_container():
-    st.write("""
+with st.container():
+    st.write(
+    """
     # Robotodio 👁 🔪
     *Analizando la agresividad en Twitter*
     """)
@@ -247,9 +248,9 @@ with st.spinner('Tened paciencia y tendréis ciencia...⏳'):
     racismo = round(df_account['value'][8]*100, 2)
     md_racismo = f"**Racismo:** *{racismo}%*"
 
-    with st.beta_container():
+    with st.container():
         
-        col1, col2 = st.beta_columns(2)
+        col1, col2 = st.columns(2)
 
         with col1:    
             st.markdown(md_cuenta_twitter)
@@ -264,7 +265,7 @@ with st.spinner('Tened paciencia y tendréis ciencia...⏳'):
 
     st.markdown("---")
 
-    with st.beta_container():
+    with st.container():
         st.subheader('Top 5 tweets más agresivos')
         st.table(data=df_top_5)
 
