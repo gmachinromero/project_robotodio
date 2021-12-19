@@ -14,6 +14,8 @@ The key here is to develop systems and algorithms that allow us to accurately id
 
 With this objective, the robotodio project was born, to identify hate speech on Twitter, to improve social networks and make the population aware of the polarity of their messages. This project use the Detoxify (https://github.com/unitaryai/detoxify) library to analyze tweets from a Twitter account, and to output an average hate-scoring.
 
+The result of this project is a dashboard where you can analyze the tweets of a twitter account, their level of hate-speech, most used words, and obtain insights from the profile of that twitter account.
+
 ## 2. Repo Structure
 
 Inside each directory/file wou will find:
